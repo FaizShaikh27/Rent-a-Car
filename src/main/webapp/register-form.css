@@ -1,0 +1,56 @@
+.form-container {
+    max-width: 600px;
+    margin: 12px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.register-form {
+    margin-top: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-textarea {
+    height: 80px; /* Adjust the height as needed */
+}
+
+.form-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-submit:hover {
+    background-color: #45a049;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 20px;
+}
